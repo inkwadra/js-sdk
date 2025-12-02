@@ -12,3 +12,7 @@ package-lock.json
 README.html
 CHANGELOG.html
 LICENSE.html
+
+# Rust build artifacts
+/rust-sdk/target/
+/rust-sdk/Cargo.lock
