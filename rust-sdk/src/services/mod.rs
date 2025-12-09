@@ -9,6 +9,7 @@ mod crud_service;
 mod file_service;
 mod health_service;
 mod log_service;
+mod realtime_service;
 mod record_service;
 mod settings_service;
 
@@ -21,5 +22,6 @@ pub use crud_service::CrudService;
 pub use file_service::FileService;
 pub use health_service::HealthService;
 pub use log_service::LogService;
+pub use realtime_service::{RealtimeMessage, RealtimeService, UnsubscribeFunc};
 pub use record_service::RecordService;
 pub use settings_service::SettingsService;
